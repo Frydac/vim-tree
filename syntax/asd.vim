@@ -4,3 +4,23 @@ highlight link asdKeyword Keyword
 syntax match asdNumber "\v[0-9]+"
 highlight link asdNumber Number
 
+syntax keyword asdLabel api in out
+highlight link asdLabel Label
+
+syntax keyword asdTag float uint bool vlc
+highlight link asdTag Tag
+
+syntax keyword asdTypedef as
+highlight link asdTypedef Typedef
+
+syntax match asdString "\v\"[a-zA-Z_0-9]*\""
+highlight link asdString String
+
+syntax match asdMacro "\vimport\s[a-zA-Z_0-9]*"
+highlight link asdMacro Macro
+
+syntax keyword asdSpecial optional
+highlight link asdSpecial Special
+
+syntax match asdComment "\v//.*$"
+highlight link asdComment Comment
