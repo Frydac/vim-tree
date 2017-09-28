@@ -7,10 +7,10 @@ highlight link asdNumber Number
 syntax keyword asdLabel interface variables serialization deserialization
 highlight link asdLabel Label
 
-syntax keyword asdTag float uint bool vlc
+syntax keyword asdTag float uint bool vlc array
 highlight link asdTag Tag
 
-syntax keyword asdTypedef as
+syntax keyword asdTypedef as of
 highlight link asdTypedef Typedef
 
 syntax match asdString "\v\"[a-zA-Z_0-9]*\""
