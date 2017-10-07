@@ -4,10 +4,10 @@ highlight link asdKeyword Keyword
 syntax match asdNumber "\v[0-9]+"
 highlight link asdNumber Number
 
-syntax keyword asdLabel interface variables serialization deserialization
+syntax keyword asdLabel interface local serialization deserialization
 highlight link asdLabel Label
 
-syntax keyword asdTag float uint bool vlc array
+syntax keyword asdTag float uint bool vlc array gain
 highlight link asdTag Tag
 
 syntax keyword asdTypedef as of
