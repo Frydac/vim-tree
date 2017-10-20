@@ -7,7 +7,7 @@ highlight link asdNumber Number
 syntax keyword asdLabel interface local serialization deserialization
 highlight link asdLabel Label
 
-syntax keyword asdTag float uint bool vlc array gain
+syntax keyword asdTag float uint bool vlc array tci gain
 highlight link asdTag Tag
 
 syntax keyword asdTypedef as of
