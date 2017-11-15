@@ -1,4 +1,4 @@
-syntax keyword asdKeyword enum table struct
+syntax keyword asdKeyword enum table struct alias
 highlight link asdKeyword Keyword
 
 syntax match asdNumber "\v[0-9]+"
@@ -10,7 +10,7 @@ highlight link asdString String
 syntax keyword asdLabel interface local serialization deserialization
 highlight link asdLabel Label
 
-syntax keyword asdTag float uint bool vlc array tci gain
+syntax keyword asdTag float uint bool vlc array tci gain string
 highlight link asdTag Tag
 
 syntax keyword asdTypedef as of from
