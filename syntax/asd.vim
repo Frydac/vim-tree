@@ -22,7 +22,7 @@ highlight link asdString String
 syntax match asdMacro "\vimport\s[a-zA-Z_0-9]*"
 highlight link asdMacro Macro
 
-syntax keyword asdSpecial optional public external
+syntax keyword asdSpecial optional public global
 highlight link asdSpecial Special
 
 syntax match asdComment "\v//.*$"
