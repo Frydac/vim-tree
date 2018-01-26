@@ -10,7 +10,7 @@ highlight link asdString String
 syntax keyword asdLabel interface local serialization deserialization
 highlight link asdLabel Label
 
-syntax keyword asdTag float uint bool vlc array tci gain txt
+syntax keyword asdTag float uint bool vlc array tci gain txt true false
 highlight link asdTag Tag
 
 syntax keyword asdTypedef as of from if to else
