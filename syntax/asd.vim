@@ -13,7 +13,7 @@ highlight link asdLabel Label
 syntax keyword asdTag float uint bool vlc array tci gain txt true false null
 highlight link asdTag Tag
 
-syntax keyword asdTypedef as of from if to else
+syntax keyword asdTypedef as of from if to else assume
 highlight link asdTypedef Typedef
 
 syntax match asdString "\v\"[a-zA-Z_0-9]*\""
