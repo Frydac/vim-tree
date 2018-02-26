@@ -7,7 +7,7 @@ highlight link asdNumber Number
 syntax match asdString "\v\"(\\.|[^\\"])*\""
 highlight link asdString String
 
-syntax keyword asdLabel interface local serialization deserialization
+syntax keyword asdLabel interface local serialization deserialization equivalence
 highlight link asdLabel Label
 
 syntax keyword asdTag float uint bool vlc array tci gain txt true false null
