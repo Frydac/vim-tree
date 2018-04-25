@@ -1,7 +1,7 @@
 syntax keyword asdKeyword enum table struct alias function
 highlight link asdKeyword Keyword
 
-syntax match asdNumber "\v[0-9]+"
+syntax match asdNumber "\v<[0-9]+>"
 highlight link asdNumber Number
 
 syntax match asdString "\v\"(\\.|[^\\"])*\""
