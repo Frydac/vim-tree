@@ -25,5 +25,8 @@ highlight link asdMacro Macro
 syntax keyword asdSpecial optional public global
 highlight link asdSpecial Special
 
-syntax match asdComment "\v//.*$"
+syntax match asdComment "\v//.*$" contains=asdTODO
 highlight link asdComment Comment
+
+syntax keyword asdTODO TODO FIXME
+highlight link asdTODO Todo
