@@ -28,5 +28,9 @@ highlight link asdSpecial Special
 syntax match asdComment "\v//.*$" contains=asdTODO
 highlight link asdComment Comment
 
+syntax region asdDescription start=/^\s*\"\"\"/ end=/\"\"\"/
+hi asdDescription guifg='darkyellow'
+
 syntax keyword asdTODO TODO FIXME
 highlight link asdTODO Todo
+
