@@ -7,7 +7,7 @@ highlight link asdNumber Number
 syntax match asdString "\v\"(\\.|[^\\"])*\""
 highlight link asdString String
 
-syntax keyword asdLabel interface local serialization deserialization equivalence
+syntax keyword asdLabel interface local serialization deserialization equivalence 
 highlight link asdLabel Label
 
 syntax keyword asdTag float uint bool vlc array tci gain txt true false null string
@@ -22,7 +22,7 @@ highlight link asdString String
 syntax match asdMacro "\vimport\s[a-zA-Z_0-9]*"
 highlight link asdMacro Macro
 
-syntax keyword asdSpecial optional public global
+syntax keyword asdSpecial optional public global align doc-after skip-serialization
 highlight link asdSpecial Special
 
 syntax match asdComment "\v//.*$" contains=asdTODO
