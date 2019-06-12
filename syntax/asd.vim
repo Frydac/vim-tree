@@ -10,7 +10,7 @@ highlight link asdString String
 syntax keyword asdLabel interface local serialization deserialization equivalence 
 highlight link asdLabel Label
 
-syntax keyword asdTag float uint bool vlc array tci gain txt true false null string
+syntax keyword asdTag float uint bool vlc array tci gain txt true false null string blob
 highlight link asdTag Tag
 
 syntax keyword asdTypedef as of from if to else assume and or ?
@@ -22,7 +22,7 @@ highlight link asdString String
 syntax match asdMacro "\vimport\s[a-zA-Z_0-9]*"
 highlight link asdMacro Macro
 
-syntax keyword asdSpecial optional public global align doc-after skip-serialization
+syntax keyword asdSpecial optional public protected global align doc-after skip-serialization
 highlight link asdSpecial Special
 
 syntax match asdComment "\v//.*$" contains=asdTODO
